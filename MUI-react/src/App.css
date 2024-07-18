@@ -1,0 +1,15 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.yellow{
+  background-color: yellow;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 30px 30px;
+  width: 350px;
+  height: 30px;
+}

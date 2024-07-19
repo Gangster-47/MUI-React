@@ -1,7 +1,8 @@
 // import MUITypography from './components/MUITypography'
 // import { ToggleButton } from '@mui/material'
 import './App.css'
-import MUIRadio from './components/MUIRadio'
+import MUICheckbox from './components/MUICheckbox'
+// import MUIRadio from './components/MUIRadio'
 // import MUISelect from './components/MUISelect'
 // import MUITextField from './components/MUITextField'
 // import MUIButton from './components/MUIButton'
@@ -10,7 +11,7 @@ import MUIRadio from './components/MUIRadio'
 function App() {
   return (
     <>
-      <MUIRadio/>
+      <MUICheckbox/>
     </>
   )
 }

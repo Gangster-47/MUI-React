@@ -5,6 +5,11 @@
   /* text-align: center; */
 }
 
+body{
+  /* background-color: wheat; */
+  background-color: #eeeeee;
+}
+
 .yellow{
   background-color: yellow;
   margin-left: 20px;

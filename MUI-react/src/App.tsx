@@ -1,8 +1,9 @@
 // import MUITypography from './components/MUITypography'
 // import { ToggleButton } from '@mui/material'
 import './App.css'
+import MUICard from './components2/MUICard'
 // import MUIAutoComplete from './components2/MUIAutoComplete'
-import MUILayout from './components2/MUILayout'
+// import MUILayout from './components2/MUILayout'
 // import MUICheckbox from './components/MUICheckbox'
 // import MUISwitch from './components/MUISwitch'
 // import MUIRating from './components2/MUIRating'
@@ -15,7 +16,7 @@ import MUILayout from './components2/MUILayout'
 function App() {
   return (
     <>
-      <MUILayout/>
+      <MUICard/>
     </>
   )
 }

@@ -78,7 +78,8 @@ function MuiMenu() {
 
 //Mainly Important is
 // 1.Menu anchorEl prop
-// 2.onClose prop
-// 3.Button handle click Prop
+// 2.Menu open prop
+// 3.onClose prop
+// 4.Button handle click Prop
 
 export default MuiMenu;

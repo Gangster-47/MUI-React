@@ -1,7 +1,11 @@
 // import MUITypography from './components/MUITypography'
 // import { ToggleButton } from '@mui/material'
 import './App.css'
-import MUIAccordian from './components2/MUIAccordian'
+import MuiLink from './navcomponents/MuiLink'
+import MuiMenu from './navcomponents/MuiMenu'
+// import MUIAccordian from './components2/MUIAccordian'
+// import MUIImageList from './components2/MUIImageList'
+// import MuiNavbar from './navcomponents/MuiNavbar'
 // import MUICard from './components2/MUICard'
 // import MUIAutoComplete from './components2/MUIAutoComplete'
 // import MUILayout from './components2/MUILayout'
@@ -17,7 +21,8 @@ import MUIAccordian from './components2/MUIAccordian'
 function App() {
   return (
     <>
-      <MUIAccordian/>
+      <MuiMenu/>
+      <MuiLink/>
     </>
   )
 }

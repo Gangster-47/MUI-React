@@ -5,7 +5,7 @@ import { useState } from "react";
 function MuiChip() {
   const [chips,setChips]=useState(["chips1","chips2","chips3"])
 
-  const handleDelete =(deletingchip)=>{
+  const handleDelete =(deletingchip:string)=>{
     setChips((chips)=>chips.filter((chip)=>chip!==deletingchip))
   }
   return (

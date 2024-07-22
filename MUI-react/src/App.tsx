@@ -3,7 +3,7 @@
 import "./App.css";
 import { createTheme, colors, ThemeProvider } from "@mui/material"; //Calling createTheme,ThemeProvider and colors(for pallete colors)
 // import MuiMasonry from './labcomponents/MuiMasonry'
-import MuiResponsiveness from "./MuiResponsiveness";
+// import MuiResponsiveness from "./MuiResponsiveness";
 // import MuiDialog from './feedbackcomponents/MuiDialog'
 // import MuiProgress from './feedbackcomponents/MuiProgress'
 // import MuiSkeleton from './feedbackcomponents/MuiSkeleton'
@@ -51,11 +51,11 @@ function App() {
   return (
     //Wrapping everything inside Theme Provider and assigning the prop theme as theme to make the customization happen
     <ThemeProvider theme={theme}>
-      {/* <MuiMenu/> */}
-      {/* <MuiDrawer/> */}
-      {/* <MuiSpeedDial/> */}
-      {/* <MuiBottomNavigation/> */}
-      <MuiResponsiveness />
+      <MuiMenu/>
+      <MuiDrawer/>
+      <MuiSpeedDial/>
+      <MuiBottomNavigation/>
+      {/* <MuiResponsiveness /> */}
     </ThemeProvider>
   );
 }

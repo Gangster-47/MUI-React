@@ -1,7 +1,9 @@
 // import MUITypography from './components/MUITypography'
 // import { ToggleButton } from '@mui/material'
 import './App.css'
-import MuiChip from './datadisp_components/MuiChip'
+import MuiTable from './datadisp_components/MuiTable'
+// import MuiChip from './datadisp_components/MuiChip'
+// import MuiTooltip from './datadisp_components/MuiTooltip'
 // import MuiAvatar from './datadisp_components/MuiAvatar'
 // import MuiBadge from './datadisp_components/MuiBadge'
 // import MuiList from './datadisp_components/MuiList'
@@ -33,7 +35,7 @@ function App() {
       {/* <MuiDrawer/> */}
       {/* <MuiSpeedDial/> */}
       {/* <MuiBottomNavigation/> */}
-      <MuiChip/>
+      <MuiTable/>
     </>
   )
 }
